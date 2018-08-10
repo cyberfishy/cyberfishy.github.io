@@ -1,0 +1,117 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 100%; 
+	max-height: 100%; 
+	font-family:Serif;
+	line-height: 1.5em;
+}
+
+main {
+	position: fixed;
+	top: 50px; /* Set this to the height of the header */
+	bottom: 50px; /* Set this to the height of the footer */
+	left: 200px; 
+	right: 200px;
+	overflow: auto; 
+	background: #fff;
+}
+		
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px; 
+	overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+	background: #BCCE98;
+}
+
+#footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px; 
+	overflow: hidden; /* Disables scrollbars on the footer frame. To enable scrollbars, change "hidden" to "scroll" */
+	background: #000;
+}
+		
+#left {
+	position: absolute; 
+	top: 50px; /* Set this to the height of the header */
+	bottom: 50px; /* Set this to the height of the footer */
+	left: 0; 
+	width: 200px;
+	overflow: auto; 
+	background: #DAE9BC; 		
+}
+
+#right {
+	position: absolute; 
+	top: 50px; /* Set this to the height of the header */
+	bottom: 50px; /* Set this to the height of the footer */
+	right: 0; 
+	width: 200px;
+	overflow: auto;
+	background: #DAE9BC;
+}
+
+.container {
+	margin: 15px; /* Provides padding for the content */
+}
+	
+p {
+	color: #555;
+	}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+	
+nav ul a {
+	color: darkgreen;
+	text-decoration: none;
+}
+			
+	/*IE6 fix*/
+* html body {
+	padding: 50px 200px 50px 200px;
+}			
+	
+* html main{ 
+	height: 100%; 
+	width: 100%; 
+}
+
+.Container {
+	max-width: 960px;
+	width: 100%; display:table;
+}
+		
+.Logo {
+	display: table-cell;
+	width: 300px;
+	padding: 0 0 30px 50px;
+	vertical-align: middle;
+}
+		
+.Logo a img {
+	width: 100%;
+	max-width: 200px
+}
+		
+.MenuContainer {
+	vertical-align: middle;
+	display: table-cell;
+	width: 960px;
+}
+		
+.MenuInnards {
+		float: right;
+}
+		
+		
